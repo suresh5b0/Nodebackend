@@ -1,0 +1,34 @@
+npm install express mongoose cors body-parser jsonwebtoken bcrypt dotenv nodemon --save--dev
+
+dotnev,cookie-parser
+
+nodemon run app.js
+
+mongod
+
+TaskList project
+
+http://localhost:4300/Tasks  -- GetAll
+http://localhost:4300/Tasks  -- post  -- model -- TaskType TaskDescription
+http://localhost:4300/Tasks/id  -- Get
+http://localhost:4300/Tasks/id  -- Put
+
+/encrypt password
+      const salt = await bcrypt.genSalt(10);
+http://localhost:4300/user/login
+{
+    "email" : "test4@test.com",
+    "password" : "Test4"
+}
+http://localhost:4300/user/register
+
+{
+    "userName" : "Test4",
+    "email" : "test4@test.com",
+    "password" : "Test4",
+    "isActive" : true
+}
+//uploads
+
+git remote add origin https://ssuresh5b0@dev.azure.com/ssuresh5b0/Ang10DemoProject/_git/Ang10DemoProject
+git push -u origin --all
